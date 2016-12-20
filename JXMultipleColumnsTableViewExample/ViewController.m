@@ -2,7 +2,7 @@
 //  ViewController.m
 //  JXMultipleColumnsTableViewExample
 //
-//  Created by Miao Yu on 16/12/20.
+//  Created by Jiuxing Wang on 16/12/20.
 //  Copyright © 2016年 Heroic. All rights reserved.
 //
 
