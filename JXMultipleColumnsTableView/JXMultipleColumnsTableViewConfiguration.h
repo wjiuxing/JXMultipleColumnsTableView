@@ -29,7 +29,7 @@
 @property (nonatomic, assign) CGFloat heightRatio;
 @property (nonatomic, strong) UIColor *backgroundColor;
 
-@property (nonatomic, assign) BOOL showSplitLine;
+@property (nonatomic, strong) UIColor *bottomSplitLineColor;
 
 @property (nonatomic, assign) BOOL sameWidthForColumns;
 

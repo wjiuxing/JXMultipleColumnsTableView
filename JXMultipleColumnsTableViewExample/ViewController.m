@@ -186,6 +186,7 @@
     
     JXMultipleColumnsTableViewRowConfiguration *row1 = [[JXMultipleColumnsTableViewRowConfiguration alloc] initWithColumnConfigurations:columns];
     row1.heightRatio = 0.15;
+    row1.bottomSplitLineColor = [UIColor clearColor];
     
     NSMutableArray *rowConfigurations = [NSMutableArray arrayWithObjects:headerRow, row1, nil];
     

@@ -191,11 +191,12 @@
         topY += columnHeight + lineWidth * 0.5f;
         
         if (row + 1 < _configuration.rowConfigurations.count) {
+            UIColor *color = rowConfiguration.bottomSplitLineColor ?: lineColor;
             [self __drawLineInContext:context
                            startPoint:(CGPoint) {leftTopX, topY}
                              endPoint:(CGPoint) {rightTopX, topY}
                             lineWidth:lineWidth
-                            lineColor:lineColor];
+                            lineColor:color];
         }
         
         topY += lineWidth * 0.5f;
