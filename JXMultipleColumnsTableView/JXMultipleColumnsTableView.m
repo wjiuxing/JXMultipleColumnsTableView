@@ -226,6 +226,14 @@
                   lineWidth:(CGFloat)lineWidth
                   lineColor:(UIColor *)lineColor
 {
+    if (isnan(lineWidth)
+        || isnan(start.x)
+        || isnan(start.y)
+        || isnan(end.x)
+        || isnan(end.y)) {
+        return;
+    }
+    
     CGContextSaveGState(context);
     {
         [lineColor setStroke];
